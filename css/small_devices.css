@@ -1,7 +1,32 @@
+/* RESET */
+*{
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	list-style: none;
+	text-decoration: none;
+
+}
+
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+/** NAV HEADER**/
+
 .main_header{
 	width: 100%;
-	height: 120vh;
-	background-color: #007bff;
+	height: 125vh;
+	background-image: url('../img/banner/banner.png');
+	background-position: center;
+	background-size: cover;
 }
 
 .nav-bar{
@@ -26,4 +51,48 @@
 
 .hamb img{
 	width: 40px; 
+}
+
+.btn-top{
+	display: none;
+}
+
+
+.title_header{
+	padding-top: 50px;
+}
+
+.title_header h1{
+	color: #FFF;
+	font-size: 1.9em;
+	font-weight: 300;
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+
+.title_header p{
+	color: #FFF;
+	font-size: 0.95em;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+
+.btn{
+	color: #FFF;
+	background-color: #37EBED;
+	font-size: 1em;
+	font-weight: 500;
+	padding: 15px 25px;
+	border: none;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+
+.imagem_header{
+	width: 100%;
+	padding-top: 30px;
+}
+.imagem_header img{
+	width: 100%;
 }
