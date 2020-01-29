@@ -1,69 +1,68 @@
+@media screen and (min-width: 1240px) {
+	.container{
+		width: 85%;
+		max-width: 1240px;
+	}
 
-
-@media screen and (min-width: 1024px) {
+	/* HEADER & NAV */
 
 	.main_header{
-		height: 115vh;
+		height: 136vh;
+	}
+	.container_header{
+		justify-content: space-around;
+		padding-top: 90px;
 	}
 
-	.nav-bar{
-		height: 80px;
-		background-color: transparent;
-		padding: 50px 30px;
-		align-items: center;
-		justify-content: space-between;
-	}
-
-	.logo{
-		width: 10%;
-	}
-	.hamb{
-		width: 10%;
-	}
-	.hamb img{
-		display: none;
-	}
-
-	.hamb .btn-top{
-		display: block;
-		padding: 15px 20px;
-		background-color: #42B3FA;
-		color: #FFF;
-		border: none;
-		border-radius: 5px;
-	}
-	.menu-lista{
-		display: block;
-		width: 40%;
-	}
-
-	.menu-lista ul{
-		display: flex;
-		
-
-	}
-
-	.menu-lista ul li{
-		margin: 0 auto;
-	}
-
-	.menu-lista ul li a{
-		padding: 10px 10px;
-		color: #FFF;
-	}
 	.title_header{
-		padding-top: 150px;
-		
+		padding-top: 115px;
+		width: 55%;
 	}
 
 	.title_header h1{
-		font-size: 3.2em;
-		line-height: 60px;
-		font-weight: 300;
+		font-size: 3.7em;
+		line-height: 70px;
 	}
 
 	.title_header p{
-		font-size: 1em;
+		font-size: 1.2em;
+	}
+
+	.imagem_header{
+		width: 40%;
+	}
+
+	/* SAVE TIME */
+
+	.savetime{
+		padding: 150px 0;
+	}
+
+	.savetimeitens .text_save h1{
+		width: 100%;
+		font-size: 2.8em;
+		width: 40%;
+		margin:  0 auto;
+		margin-bottom: 60px;
+	}
+	
+	/* APP PEOPLE */
+
+	.cont_app{
+		margin-top: 0px;
+	}
+
+	.cont{
+		width: 40%;
+	}
+
+
+	/* SING */
+
+	.Sign_itens{
+		width: 33%;
+		padding: 30px;
+
 	}
 
 }

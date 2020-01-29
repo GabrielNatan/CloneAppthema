@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px){
+	/* HEADER & NAV */
 	.main_header{
-		height: 78vh;
+		height: 60vh;
 		background-position: center ; 
 		background-size: 100% 100%;
 		background-repeat: no-repeat; 
@@ -26,5 +27,68 @@
 
 	.imagem_header{
 		width: 50%;
+	}
+
+	/* SAVE TIME */
+
+	.savetime{
+		width: 100%;
+		padding-top: 180px;
+		
+	}
+
+	.savetimeitens{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.savetimeitens .text_save{
+		width: 100%;
+	}
+	.savetimeitens .text_save h1{
+		width: 100%;
+		font-size: 2.2em;
+		width: 60%;
+		margin:  0 auto;
+		margin-bottom: 60px;
+	}
+
+	.article_itens{
+		width: 33%;
+		padding: 30px 20px;
+	}
+
+	.article_itens .blue{
+		margin-bottom: 0px;
+	}
+
+	/* APP PEOPLE */
+	.cont_app img{
+		width: 100%;
+		height: 400px;
+	}
+
+	.phone{
+		height: 400px;
+		
+	}
+	.cont{
+		width: 50%;
+	}
+	.cont_app{
+		height: 500px;
+	}
+
+
+	/* SING */
+
+	.cont_sing{
+		justify-content: space-between;
+	}
+
+	.Sign_itens{
+		width: 30%;
+
 	}
 }

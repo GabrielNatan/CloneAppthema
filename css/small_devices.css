@@ -16,10 +16,11 @@
 
 .container{
 	width: 90%;
+	max-width: 1240px;
 	margin: 0 auto;
 }
 
-/** NAV HEADER**/
+/* HEADER & NAV */
 
 .main_header{
 	width: 100%;
@@ -95,4 +96,104 @@
 }
 .imagem_header img{
 	width: 100%;
+}
+
+/* SAVE TIME */
+
+.savetime{
+	width: 100%;
+	padding-top: 100px;
+}
+
+.savetimeitens .text_save{
+	text-align: center;
+	padding: 0 20px;
+}
+
+.savetimeitens .text_save h1{
+	font-size: 1.9em;
+	font-weight: 300;
+}
+
+.article_itens{
+	width: 100%;
+	padding: 30px 20px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+}
+
+.article_itens span{
+	padding: 25px 30px;
+	max-height: 110px;
+	border-radius: 15px;
+	margin-bottom: 30px;
+}
+
+.blue{
+	background-image: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+}
+
+
+.orange{
+	background-image:linear-gradient(to right, #fdae5c 0%, #fd8e5e 100%);
+}
+.green{
+	background-image: linear-gradient(to right, #37ef8d 0%, #37ef8d 100%);
+}
+
+.article_itens h3{
+	font-size: 1.6em;
+	font-weight: 300;
+
+}
+
+
+/* APP PEOPLE */
+
+.phone{
+	width: 110%;
+	margin-bottom: 50px;
+}
+
+.cont_app{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+
+/* SING */
+
+.cont_sing{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #CACACA;
+	margin-bottom: 200px;
+}
+
+.Sign_itens{
+	width: 100%;
+
+}
+
+.Sign_itens span{
+	color: #0181f5;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+.Sign_itens h2{
+	font-size: 1.5em;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.Sign_itens p{
+	color: #727272;
+	font-size: 1em;
+	margin-bottom: 40px;
 }
