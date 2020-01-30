@@ -158,6 +158,10 @@
 	margin-bottom: 50px;
 }
 
+.cont img{
+	width: 100%;
+}
+
 .cont_app{
 	display: flex;
 	flex-wrap: wrap;
@@ -172,7 +176,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	border-bottom: 1px solid #CACACA;
-	margin-bottom: 200px;
+	margin-bottom: 50px;
 }
 
 .Sign_itens{
@@ -196,4 +200,116 @@
 	color: #727272;
 	font-size: 1em;
 	margin-bottom: 40px;
+}
+
+/* Feacture */
+
+
+.cont_feacture{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.feact_text{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.feact_text h1{
+	font-weight: 300;
+	font-size: 1.82em;
+	line-height: 40px;
+	margin-bottom: 20px; 
+}
+
+.feact_text p{
+	color: #797979;
+	line-height: 30px;
+	margin-bottom: 20px; 
+}
+
+ .btn_feact{
+	padding: 14px 27px;
+	font-size: 1em;
+	letter-spacing: 3px;
+	color: #FFF;
+	border-radius: 5px;
+	background-color: #0181f5;
+	margin-bottom: 20px; 
+	border: none;
+}
+
+.feact_image{
+	width: 100%;
+}
+
+.feact_image img{
+	width: 100%;
+}
+
+/* EASY */
+
+.easy{
+	width: 100%;
+	padding: 60px 0;
+}
+
+.cont_easy{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.easy_img, .easy_text {
+	width: 100%;
+}
+
+.easy_img img{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.easy_text h1{
+	font-weight: 300;
+	font-size: 1.82em;
+	line-height: 40px;
+	margin-bottom: 20px; 
+}
+
+.easy_text p{
+	color: #797979;
+	line-height: 30px;
+	margin-bottom: 20px; 
+	width: 280px;
+}
+
+.easy_text ul{
+	color: #595959;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.easy_text ul li{
+	display: flex;
+	align-items: center;
+	padding:10px 0; 
+	width: 290px;
+	position: relative;
+	padding-left: 25px;
+}
+
+.easy_text ul li::before{
+	content: "";
+	display: block;
+	background-image: url('../img/ilstrator_img/check.svg');
+	background-repeat: no-repeat;
+	background-size: cover; 
+	width: 16px;
+	height: 16px;
+	margin-right: 15px;
+	position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }

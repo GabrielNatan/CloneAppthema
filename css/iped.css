@@ -93,6 +93,23 @@
 
 	.Sign{
 		padding-top: 120px;
+		padding-right: 65px;
+	}
+
+	.cont_sing{
+		margin-bottom: 200px;
+	}
+
+	/* Feacture */
+	
+	.feact_text{
+		width: 50%;
+		margin-bottom: 20px;
+		padding-right: 65px;
+	}
+
+	.feact_image{
+		padding-right: 65px;
 	}
 
 }
