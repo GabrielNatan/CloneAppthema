@@ -151,4 +151,47 @@
 	.easy_text ul li{
 		padding:0 0 5px 25px; 
 	}
+
+	/* REVIEW */
+
+
+	.review{
+		height: 50vh;
+		
+	}
+
+	.cont_review{
+		width: 80vw;
+		height: 50vh;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	/* UNLOCK */
+
+	.unlock_itens{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.itens_un{
+		width: 33%;
+		padding: 0 0 0px 0;
+	}
+	
+	/* GET */
+
+	.get_title h1{
+		font-size: 3em;
+		text-align: left;
+	}
+
+	.get_loja{
+		width: 50%;
+		margin: 0 auto;
+	}
 }

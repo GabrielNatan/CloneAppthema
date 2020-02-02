@@ -120,4 +120,41 @@
 	}
 
 
+	/* REVIEW */
+
+
+	.review{
+		height: 90vh;
+		
+	}
+
+	.cont_review{
+		width: 80vw;
+		height: 90vh;
+	}
+
+	.title_re h2{
+		max-width: 450px;
+		font-weight: 500;
+		font-size: 3em;
+	}
+
+	.desc_re p{
+		font-size: 1.3em;
+	}
+
+	span p{
+		font-size: 2em;
+	}
+	
+	/* GET */
+	.get_title{
+		width: 50%;
+	}
+
+	.get_loja{
+		justify-content: center;
+	}
+
+
 }

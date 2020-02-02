@@ -112,4 +112,19 @@
 		padding-right: 65px;
 	}
 
+
+	/* GET */
+
+	.get_itens{
+		display: flex;
+	}
+	.get_title{
+		width: 40%;
+	}
+
+	.get_loja{
+		height: 200px;
+		display: flex;
+		align-items: center;
+	}
 }

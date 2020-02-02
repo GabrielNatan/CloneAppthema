@@ -313,3 +313,181 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+
+/* REVIEW */
+
+
+.review{
+	width: 100%;
+	height: 70vh;
+	z-index: 0;
+	position: relative;
+	background-image: url('../img/banner/testmonial.png');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.review::before{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-color: #5DB2FF;
+	opacity: 0.9;
+	position: absolute;
+}
+
+.cont_review{
+	width: 100%;
+	height: 100%;
+	padding: 50px 20px; 
+}
+
+.title_re h2{
+	text-align: center;
+	font-weight: 300;
+	font-size: 1.7em;
+	color: #FFF;
+	margin-bottom: 30px;
+}
+
+.desc_re p{
+	text-align: center;
+	font-size: 1.2em;
+	color: #FFF;
+	margin-bottom: 30px;
+}
+
+span p{
+	text-align: center;
+	color: #FFF;
+}
+
+/* UNLOCK */
+
+.unlock{
+	width: 100%;
+}
+
+.unlock_itens{
+	width: 100%;
+}
+
+.title_un{
+	width: 100%;
+	padding:30px 0 0 0; 
+}
+
+.title_un h1{
+	font-weight: 300;
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+
+.title_un p{
+	text-align: center;
+	color: #797979;
+	margin-bottom: 30px;
+}
+
+.itens_un{
+	width: 100%;
+	padding: 0 0 50px 0;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+	margin-bottom: 30px;
+}
+
+
+.header_iten{
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+	background-color: #E9F4FE;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header_02{
+	background-color: #FEF4EE;
+}
+
+.header_iten h2{
+	font-weight: 500;
+}
+
+.header_iten span{
+	font-weight: 500;
+	font-size: 1.3em;
+	color: #0181F5;
+}
+
+.body_itens ul{
+	width: 100%;
+}
+
+.body_itens ul li{
+	padding:20px 10px;
+	text-align: center;
+	color: #797979; 
+}
+
+.buton_un{
+	width: 100%;
+}
+
+.btn_un{
+	border: 1px solid #5DB2FF;
+	color: #5DB2FF;
+	border-radius: 3px;
+	padding: 8px 18px;
+	background-color: transparent;
+	margin: 0px auto;
+	display: block;
+}
+
+.span_02{
+	color: #FDAE5C;
+}
+.span_03{
+	color: #00D363;
+}
+
+.header_03{
+	background: #E8FCF1;
+}
+
+.get{
+	width: 100%;
+	background-image: url('../img/banner/product.png');
+	background-position: center center;
+	background-size: cover;
+}
+
+.get_itens{
+	width: 100%;
+	padding: 100px 0;
+}
+
+.get_title{
+	width: 100%;
+}
+
+.get_title h1{
+	font-size: 2em;
+	color: #FFF;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.footer{
+	text-align: center;
+	padding: 30px 0;
+	background-color: #000000;
+	color: #797979;
+}
